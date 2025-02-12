@@ -1,0 +1,7 @@
+std = "roblox"
+
+[lints]
+multiple_statements = "allow"
+
+[config]
+shadowing = {ignore_pattern = "^[_(scope)(use)]"}
